@@ -7,6 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
+import org.hibernate.annotations.NaturalId;
+
 @Entity
 public class Fabricante {
 
@@ -16,6 +18,7 @@ public class Fabricante {
 	private Long id;
 	
 	@Column(unique=true)
+	@NaturalId
 	private String codigo;
 	
 	private String nome;

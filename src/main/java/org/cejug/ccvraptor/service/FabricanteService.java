@@ -10,8 +10,10 @@ public interface FabricanteService {
 
 	void update(Fabricante fabricante);
 
-	void remove(Long id);
+	void remove(String codigo);
 
 	List<Fabricante> findAll();
+	
+	Fabricante find(String codigo);
 	
 }
