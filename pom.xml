@@ -35,12 +35,6 @@
 			<artifactId>aspectjtools</artifactId>
 			<version>1.6.2</version>
 		</dependency>
-		
-		<dependency>
-			<groupId>hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-			<version>1.8.0.10</version>
-		</dependency>
             
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -100,11 +94,11 @@
 			<artifactId>mockito-all</artifactId>
 			<version>1.8.4</version>
 		</dependency>
-
+	
 		<dependency>
-		    <groupId>javax.servlet</groupId>
-		        <artifactId>jstl</artifactId>
-		        <version>1.2</version>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
 		</dependency>
 		
 		<dependency>
@@ -137,24 +131,6 @@
 	        <version>2.2.9</version>
 		</dependency>
 		
-		<dependency>
-			<groupId>postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>9.1-901.jdbc4</version>
-		</dependency>
-		
-		<dependency>
-            <groupId>de.bripkens</groupId>
-            <artifactId>gravatar4java</artifactId>
-            <version>1.1</version>
-        </dependency>
-        
-       <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>2.32.0</version>
-    </dependency> 
-		            
 	</dependencies>
 
 	<repositories>
@@ -165,7 +141,7 @@
     </repositories>
     
 	<build>
-	    <finalName>chorus</finalName>
+	    <finalName>ccvraptor</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

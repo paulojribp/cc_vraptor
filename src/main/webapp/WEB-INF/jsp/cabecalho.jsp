@@ -11,7 +11,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Chorus</title>
+        <title>Crud Comentado VRaptor3</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
